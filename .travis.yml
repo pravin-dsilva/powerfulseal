@@ -4,8 +4,6 @@ python:
   - "3.8"
 
 arch:
-  - amd64
-  - arm64
   - ppc64le
 
 # enable docker in Travis
