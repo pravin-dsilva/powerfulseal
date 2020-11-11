@@ -11,6 +11,8 @@ ifeq ($(arch),x86_64)
   tag = $(name):$(version)
 else ifeq ($(arch),aarch64)
   tag = $(name):$(version)-arm64
+else ifeq ($(arch),ppc64le)
+  tag = $(name):$(version)-ppc64le
 endif
 namespace ?= "bloomberg/"
 
